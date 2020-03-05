@@ -1,0 +1,63 @@
+.color-box>p {
+    width: 20%;
+    height: 0.2rem;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+.color-box.with-content {
+    padding-bottom: 2rem;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.color-box.bottom>p {
+    margin: 0;
+}
+
+.color-box.with-content>p {
+    height: auto;
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+.color-box.with-content img {
+    width: 70px;
+    height: 4.375rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color-box.with-content>.yellow {
+    color: yellow;
+    position: relative;
+}
+
+.yellow {
+    background: yellow;
+    height: auto;
+}
+
+.yellow-green {
+    background: yellowgreen;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orangered;
+}
+
+.red {
+    background: red;
+}

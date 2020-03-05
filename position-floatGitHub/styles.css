@@ -1,0 +1,47 @@
+@import url(navigation.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    text-transform: uppercase;
+    color: white;
+}
+
+.personal-card {
+    background: linear-gradient(to bottom, #09254f, #00375a, #00454c, #004e2c, #3b5306);
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.personal-info img {
+    width: 150px;
+    height: 150px;
+    transform: rotate(-12deg);
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.personal-content {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 18px;
+}
+
+.personal-info {
+    padding: 4rem 4rem 6rem 4rem;
+}
