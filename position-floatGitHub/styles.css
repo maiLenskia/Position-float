@@ -42,6 +42,11 @@ body {
     font-size: 18px;
 }
 
+.personal-content .phone {
+    text-transform: none;
+}
+
 .personal-info {
     padding: 4rem 4rem 6rem 4rem;
 }
+
